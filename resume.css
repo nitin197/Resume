@@ -1,0 +1,50 @@
+
+		body {
+			
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.container1 {
+			width: 50%;
+			max-width: 1000px;
+			min-height: 100px;
+			background-color: whitesmoke;
+			margin: 20px;
+			padding: 20px;
+			grid-template-columns: 2fr 4fr;
+		}
+		
+		.Contact, .Skills, .Language, .Hobbies, .title,
+		.Summary, .Experience, .Education, .project {
+			margin-bottom: 30px;
+			 
+		}
+		
+		.Contact{
+			padding: 20px;
+		
+		border-radius: 10px;
+			text-align: center;
+			background-color: lightgrey;
+		}
+		h2{
+			font-weight: bold;
+			 font-size: 20px;
+			font-style: oblique;
+		}
+		hr{
+			 
+		 border-top: 10px dotted slategray;
+		 height: 3px;
+		 width: 50%;
+		 border-right-width:0;
+		 border-bottom-width:0;
+		 border-left-width: 0;
+		}
+		th,td{
+			padding-right: 5px;
+		}
+		h3{
+			font-size: 15px;
+		}
